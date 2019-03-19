@@ -1,45 +1,45 @@
 *{
-	margin: 0 auto;
+  margin: 0 auto;
 }
 html
   {
-	background:azure;
-	color:black;
+  background:azure;
+  color:black;
   }
 nav{
-  	display: block;
-  	width: 100%;
-  	margin: 0 auto 0px;
+    display: block;
+    width: 100%;
+    margin: 0 auto 0px;
   }
   .menu ul{
-  	padding: 1em 0;
-  	background: #1CEBF8;
-  	text-align: center;
+    padding: 1em 0;
+    background: #1CEBF8;
+    text-align: center;
   }
   .menu a{
-  	padding: 1em;
-  	background: rgba(177, 152, 145, .3);
-  	border-right: 1px solid #b19891;
-  	color: #695753;
-  	text-decoration: none; /*убираем подчеркивание текста ссылок*/
-  	letter-spacing: 3px;
-  	position: relative;
+    padding: 1em;
+    background: rgba(177, 152, 145, .3);
+    border-right: 1px solid #b19891;
+    color: #695753;
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    letter-spacing: 3px;
+    position: relative;
   }
   .menu a, .menu a:visited {color: #992AEF;}
   .menu a, .menu a:hover{color: #feb386;}
   .menu li{
-  	display: inline-block;
+    display: inline-block;
   }
 ul{
-  	list-style: none; /*убираем маркеры списка*/
-  	margin: 0 auto; /*убираем верхнее и нижнее поле, равное 1em*/
-  	padding-left: 0; /*убираем левый отступ, равный 40px*/
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0 auto; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
   }
 header
   {
     font-size:58px;
     color: #9900cc;
-    border:dotted #9900cc;
+    border: dotted #9900cc;
     text-align: center;
     font-weight: bold;
   }  
@@ -58,17 +58,17 @@ display: block;
   }
 .twoBlock
 {
-	float: left;
+  float: left;
 }
 .shrift
  {
- 	font-weight:bold;
- 	font-style: italic;
+  text-align: center;
+  font: italic bold 25px serif, sans-serif;
  }
 #paragrof
 {
-	padding-left: 4px;
-	text-indent: 15px;
+  padding-left: 4px;
+  text-indent: 15px;
 }
 #col
   {
@@ -83,67 +83,81 @@ display: block;
   }
 #otstyp
 {
-	text-indent: 15px;
+  text-indent: 15px;
+}
+.fit_2, .fit_1{
+  position: relative;
+  margin: 0;
+  padding:10px;
+}
+.fit_2{
+  float: left;
+  text-align: center;
 }
 .fit_1
 {
-	float: right;
-	text-align: center;
+  float: right;
+  text-align: center;
 }
 .svet
  {
- 	clear: both;
- 	color:#3F9F39;
- 	text-align: center;
+  clear: both;
+  color:#3F9F39;
+  text-align: center;
  }
 .fit
   {
-  	text-align: center;
-  	margin:6px;
+    text-align: center;
+    margin:6px;
   }
  .Block_left, .Block_right{
- 	position: relative;
- 	margin: 0;
- 	padding:10px;
- 	border: 4px solid black;
+  position: relative;
+  margin: 0;
+  padding:10px;
+  border: 4px solid black;
  }
  .Block_left{
- 	float: left;
- 	margin-left: 12px;
- 	margin-bottom: 5px;
- 	width: 47%;
- 	border-left: 4px solid azure;
- 	border-top: 4px solid azure;
- 	border-bottom: 4px solid azure;
+  float: left;
+  margin-left: 12px;
+  margin-bottom: 5px;
+  width: 47%;
+  border-left: 4px solid azure;
+  border-top: 4px solid azure;
+  border-bottom: 4px solid azure;
  }
 .Block_right{
- 	float: right;
- 	margin-right: 12px;
- 	margin-bottom: 5px;
- 	width:47%;
- 	border-left: 4px solid azure;
- 	border-right: 4px solid azure;
- 	border-top: 4px solid azure;
- 	border-bottom: 4px solid azure;
+  float: right;
+  margin-right: 12px;
+  margin-bottom: 5px;
+  width:47%;
+  border-left: 4px solid azure;
+  border-right: 4px solid azure;
+  border-top: 4px solid azure;
+  border-bottom: 4px solid azure;
+ }
+ hr{
+  color:black;
+  clear: both;
  }
  h1{
- 	text-align: center;
+  text-align: center;
  }
  footer
 {
-	margin-top:auto;
-	margin: 0;
-	padding-left: 5px;
-	padding-bottom: 5px;
-	height: auto;
-	border-top:5px solid #CEFEBA;
-	background-color: #CEFEBA;
+  margin-top:auto;
+  margin: 0;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  height: auto;
+  border-top:5px solid #CEFEBA;
+  background-color: #CEFEBA;
+  clear: both;
 }
 .CS{
-	list-style-type:none;
-	padding-right: 0;
-	margin-right: 0;	
-	display: inline;
-	float: right;
-	padding-right: 20px;
+  list-style-type:none;
+  padding-right: 0;
+  margin-right: 0;  
+  display: inline;
+  float: right;
+  padding-right: 20px;
 }
